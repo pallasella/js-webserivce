@@ -1,8 +1,7 @@
 .container {
     width: 1080px;
-    margin: 0 auto;
-    margin-bottom: 8px; 
-    clear: both;
+    margin: 0 auto 8px auto;
+    overflow: hidden;
 }
 
 .left {
@@ -55,4 +54,8 @@
 .rank li {
     float:right;
     list-style-type: none;
+}
+.footer {
+    height: 80px;
+    background-color: yellow;
 }
