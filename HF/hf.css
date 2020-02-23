@@ -1,0 +1,58 @@
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 8px; 
+    clear: both;
+}
+
+.left {
+    width: 740px;
+    height: 428px;
+    background-color: red;
+    float: left;
+}
+
+.right {
+    width: 322px;
+    height: 428px;
+    background-color: blue;
+    float: right;
+}
+
+.gnb { 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    background-color: green;
+}
+
+.gnb li {
+    list-style-type: none;
+    padding-left: 16px;
+    float: left;    
+}
+
+.gnb li:nth-child(1) {
+    padding-left: 0;
+}
+
+.rank {
+    float: right;
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    background-color: yellow;
+    /*
+        padding: 8px 0;
+
+        padding: 8px 0 8px 0;
+    */
+}
+
+.rank li {
+    float:right;
+    list-style-type: none;
+}
