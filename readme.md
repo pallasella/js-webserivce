@@ -1,6 +1,16 @@
 p태그 : paragraph의 약자, 문단, 글자쓸때 쓴다
-
 ```html
     <p>안녕하세요 글자입니다</p>
-```
-
+fieldset 요소 : 태그 폼 필드 세트(form FIELD SET)를 표시한다. 폼 필드 세트는 폼 내에서 관련 컨트롤을 하나의 그룹으로 묶은 것을 말한다.
+legend 요소를 함께 사용해야 한다.
+```html
+    <fiedlest> </fieldest>
+    legend 요소 :fieldset 요소의 제목(LEGEND)을 표시한다. fieldset 요소를 이용하여 여러 개의 컨트롤들을 묶었으면 이 묶음이 어떤 성격 또는 용도인지 알려줄 필요가 있으며, 이때 legend 요소를 사용한다.
+    이 요소를 사용하면 fieldset 요소로 묶인 영역 주변에 테두리 선이 나타난다.
+    ```html
+    <legend></legend>
+    textarea:여러행의 글자 입력 양식 생성, cols는 너비를 지정하고 rows는 높이를 지정
+    '''html
+    <ol> 태그: ordered list 약자로 숫자나 알파벳 등 순서가 있는 목록을 만드는데 사용
+    <ul> 태그: unordered list의 약자로 순서가 필요없는 목록을 만듬
+    <dl> 태그: definition list의 약자로 사전처럼 용어를 설명하는 목록을 만듬    

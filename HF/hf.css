@@ -16,6 +16,8 @@
     height: 428px;
     background-color: blue;
     float: right;
+    overflow:hidden;
+    
 }
 
 .gnb { 
@@ -58,4 +60,20 @@
 .footer {
     height: 80px;
     background-color: yellow;
+}
+.rgb { 
+    float: left;
+    list-style-type: none;
+}
+.float1 {
+    float: right;
+    padding: 10px;
+
+}
+.zara li{
+    float: left;
+    padding: 0px 0px 0px 1000px;
+    list-style-type: none;
+    
+
 }
