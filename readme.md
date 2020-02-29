@@ -13,4 +13,7 @@ legend 요소를 함께 사용해야 한다.
     '''html
     <ol> 태그: ordered list 약자로 숫자나 알파벳 등 순서가 있는 목록을 만드는데 사용
     <ul> 태그: unordered list의 약자로 순서가 필요없는 목록을 만듬
-    <dl> 태그: definition list의 약자로 사전처럼 용어를 설명하는 목록을 만듬    
+    <dl> 태그: definition list의 약자로 사전처럼 용어를 설명하는 목록을 만듬 
+    '''html
+    <hgroup></hgroup>섹션의 제목그룹을 나타냄
+    이 요소는 <h1>~<h6>그룹을 묶을 때 사용 

@@ -9,6 +9,11 @@
     height: 428px;
     background-color: red;
     float: left;
+    overflow: hidden;
+}
+
+.left > img {
+    width: 100%;
 }
 
 .right {
@@ -18,6 +23,9 @@
     float: right;
     overflow:hidden;
     
+    background-image : url("float.jpg");
+    background-size: cover; 
+    background-position: center center;
 }
 
 .gnb { 
