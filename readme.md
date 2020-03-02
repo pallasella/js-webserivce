@@ -17,3 +17,16 @@ legend 요소를 함께 사용해야 한다.
     '''html
     <hgroup></hgroup>섹션의 제목그룹을 나타냄
     이 요소는 <h1>~<h6>그룹을 묶을 때 사용 
+    '''html
+    :active 사용자가 마우스로 클릭한 태그 선택
+    '''html
+    :hover 사용자가 마우스 커서를 올린 태그 선택
+    '''html
+    focus 포커스를 맞춘 input 태그 선택 (마우스를 클릭했을때)
+    '''html
+    diabled 사용 불가능한 input 태그 (사용할수 없는상태)
+    '''html
+    enabled 사용가능한 input 태그 (사용할 수 있는 상태)
+    '''html
+    크기단위종류에는 %,em,mm,inch,px이 있음
+    %백분율 단위, em 배수단위 px 픽셀단위
