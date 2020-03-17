@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.head {
+    width: 1200px;
+    height: 100px;
+    background-color: green;
+    word-spacing: 10px;
+    text-align: center;
+}
+.center {
+    text-align: left;
+    display: block;
+
+}
+.item {
+    background: navy;
+    float: right;
+    width: 300px;
+    height: 200px; 
+    margin-bottom: 40px;
+            
+}
+.item2 {
+    background-image: url(./blue.jpg);
+    width: 300px;
+    height: 200px;
+    position: relative;
+    
+}

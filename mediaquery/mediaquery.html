@@ -4,29 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
-    @media (max-width:600px){
-        body{ 
-            background-color:green;
+
+    <style>
+        #mybox {
+            width: 100%;
+
+            background-color: red;
         }
-    }
-    @media (max-width:500px){
-        body{
-            background-color:red;
+
+        #mybox > p {
+            font-size: 15px;
         }
-    }
-    @media (min-width:601px){
-        body{
-            background-color: palegreen;
+
+        #grid > div {
+            float: left;
+            height: 300px;
         }
-    }
-</style>
+
+        #grid > div > div {
+            padding: 10px;  
+        }
+        
+        #grid div > div > div {
+            height: 280px;
+            width: 100%;
+            background-color: blue;
+        }
+
+        #grid .xs-12 {
+            width: 100%;
+        }
+
+        @media all and (min-width:768px) {
+            #mybox {
+            width: 800px;
+            height: 800px;
+
+            background-color: red;
+            }
+
+            #mybox > p {
+                font-size: 30px;
+            }
+
+            #grid .sm-4 {
+                width: 33.33%;
+            }
+        }
+
+        @media all and (min-width:1200px) {
+            #mybox {
+            width: 1200px;
+            height: 1200px;
+
+            background-color: red;
+            }
+
+            #mybox > p {
+                font-size: 60px;
+            }
+
+            #grid .lg-3 {
+                width: 25%;
+            }
+        }   
+    </style>
 </head>
 <body>
-    <ul>
-        <li>~500px:red</li>
-        <li>501~600px:green</li>
-        <li>601px!:blue</li>
-    </ul>
+    <!-- <div id="mybox">
+        <p>Lets Media query</p>
+    </div> -->
+
+    <div id="grid">
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+        <div class="xs-12 sm-4 lg-3">
+            <div><div></div></div>
+        </div>
+
+    </div>
 </body>
 </html>
