@@ -72,3 +72,49 @@
 .login {
     text-align: center;
 } 
+.meber {
+    font-size: 13px;
+    position: absolute;
+    left: 40px;
+    top: 470px;
+    text-align: center;
+}
+.notice {
+    background:#636466;
+    width: 400px;
+    height: 40px;
+    font-size:14px ;
+    line-height: 40px;
+    padding-right: 10px;
+    position: absolute;
+    right:402px;
+    top: 470px;
+    margin-top: 20px;
+}
+.notice h4 {
+    float: left;
+    padding-right: 20px;
+}
+.box {
+    background: aliceblue;
+    width: 310px;
+    height: 170px;
+    position: absolute;
+    right:500px;
+    top: 540px;
+    display: block;
+    list-style: none;
+    border: 1px solid #E0E0E0;
+}
+.box2 {
+   
+    background: aliceblue;
+    width: 310px;
+    height: 170px;
+    position: absolute;
+    right:170px;
+    top: 540px;
+    list-style-type: none;
+    border: 1px solid #E0E0E0;
+    word-spacing: 10px;
+}
