@@ -5,9 +5,7 @@
 
 .wrapper {
     width: 1200px;
-    margin: 0 auto;
-    
-
+    margin: 0 auto;    
 }
 .head {
     width: 1200px;
@@ -37,13 +35,11 @@
 
 .year { 
     font-size: 30px;
-
 }
 
 .day {
     font-size: 50px;
 }
-
 
 .item2 {
     background-image: url(./blue.jpg);
@@ -52,8 +48,7 @@
     float: right;
     position: absolute;
     left: 0px;
-    top: 200px;
-    
+    top: 200px;    
 }
 .main_login {
     width: 300px;
@@ -90,7 +85,9 @@
     right:402px;
     top: 470px;
     margin-top: 20px;
+    color: white;
 }
+
 .notice h4 {
     float: left;
     padding-right: 20px;
