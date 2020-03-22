@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var month = prompt("숫자 입력");
+        month = Number(month);
+
+        if (month > 6) {
+            console.log("하반기 입니다");
+        } else {
+            console.log("상반기 입니다");
+        }
+
+        if (month>11) {
+            console.log("겨울입니다.");
+        } else {
+
+            if (month>8) {
+                console.log("가을입니다");
+            } else {
+                if (month>5) {
+                    console.log("여름입니다");
+                }
+            }
+        }
+
+        // else if (month>5) {
+        //     console.log("여름입니다");
+        // } else if (month>2) {
+        //     console.log("봄입니다");
+        // }
+    </script>
+</body>
+</html>
