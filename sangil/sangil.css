@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto; 
+}
+.head {
+    width: 1200px;
+    height: 100px;
+    word-spacing: 10px;
+    text-align: right;
+    padding: 70px;
+    float: left;
+    position: relative;
+    padding-right: 10px;
+
+}
+.header {
+    width: 1200px;
+    height: 60px;
+    background-color:royalblue;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    right: 500px;
+    bottom: 0px;
+}
+.school {
+    width: 1000px;
+    display : block ;
+    margin : 0 auto ;
+}
+.box {
+    background: aliceblue;
+    width: 310px;
+    height: 170px;
+    display: block;
+    list-style: none;
+    border: 1px solid #E0E0E0;
+    margin: 30px;
+}
+.box2 {
+    background: aliceblue;
+    width: 310px;
+    height: 170px;
+    display: block;
+    list-style: none;
+    border: 1px solid #E0E0E0;
+    margin: 30px;
+}
