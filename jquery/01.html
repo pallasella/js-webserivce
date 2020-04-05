@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="name" type="text" placeholder="이름을 입력해주세요">
+    <button id="btn">결과</button>
+    <div id="resultBox" style="margin-top: 10px; border: 1px solid gray;"></div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $("#btn").click(function() {
+            var name = $("#name").val();
+
+            console.log("안녕하세요 " + name + "님");
+            console.log("안녕히 가세요 " + name + "님");
+        });
+    </script>
+</body>
+</html>

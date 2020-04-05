@@ -6,12 +6,30 @@
     <title>Document</title>
 </head>
 <body>
+
     <script>
-       var sum = 0;
-       for (var i = 1; i <=10; i++) {
-           var value = prompt('');
-           sum+=Number(value);
-       }
+        // 숫자 2개를 입력받고 사칙연산과 평균을 출력한다
+        // 입력 예시 :
+        // 4
+        // 8
+        // 출력 예시 :
+        // 합 : 12
+        // 차 : -4
+        // 분 : 0.5
+        // 곱 : 32
+        // 평균 : 6
+        var input1 = prompt('첫번째 숫자를 입력하세요');
+        var input2 = prompt('두번째 숫자를 입력하세요');
+
+        var num1 = Number(input1);
+        var num2 = Number(input2);
+        
+        console.log("합 : " + (num1 + num2));
+        console.log("차 : " + (num1 - num2));
+        console.log("분 : " + (num1 / num2));
+        console.log("곱 : " + (num1 * num2));
+        console.log("평균 : " + ((num1 + num2) /2));
     </script>
+
 </body>
 </html>

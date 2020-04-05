@@ -14,7 +14,6 @@
     text-align: right;
     padding: 70px;
     float: left;
-    position: relative;
     padding-right: 10px;
 
 }
@@ -22,11 +21,6 @@
     width: 1200px;
     height: 60px;
     background-color:royalblue;
-    text-align: center;
-    position: absolute;
-    left: 80px;
-    right: 500px;
-    bottom: 0px;
 }
 .school {
     width: 1000px;

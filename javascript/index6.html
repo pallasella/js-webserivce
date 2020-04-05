@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = prompt("이름을 입력해주세요");
+        var height = prompt("키를 입력해주세요");
+        var weight = prompt("몸무게를 입력해주세요");
+
+        console.log(name+ "의 키는"+ height+ "이고" + "몸무게는" + weight + " 입니다 ");
+
+        height = Number(height);
+        weight = Number(weight);
+
+        var bmi = weight / ((height/100) * (height/100));
+        console.log("결과값은"+bmi+"입니다");
+        
+        // var sumResult=Number(weight)/((Number(height)/100)*(Number(height)/100));
+        // console.log("결과값은"+sumResult+"입니다");
+
+    </script>
+</body>
+</html>
