@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id = "myname" type="text" placeholder="당신의 이름은 무엇입니까?">
+    <input id = "friend" type="text" placeholder="친구의 이름은 무엇입니까?">
+    <button  id="btn">결과</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $("#btn").click(function() {
+         var myname = $ ("myname").val();
+         var friend = $("friend").val();
+
+             console.log("당신의 이름은" + myname + "이고" );
+             console.log("친구의 이름은" + friend +"입니다");
+        });
+    </script>
+</body>
+</html>

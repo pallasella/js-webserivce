@@ -7,10 +7,15 @@
 </head>
 <body>
     <script>
-        var first = prompt("첫번째숫자는(숫자를입력해주세요)")
-        var two = prompt("두번째숫자는(숫자를입력해주세요)")
+        // Number(문자열)
+        var first = Number(prompt("첫번째숫자는(숫자를입력해주세요)"));
+        var two = Number(prompt("두번째숫자는(숫자를입력해주세요)"));
+
         console.log("당신이 입력한 숫자는" + first +"과"+ two+"입니다.");
-        console.log("A>B");
+        console.log("A <= B : " + (first<=two));
+        console.log("A == B : " + (first==two));
+        
+        
     </script>
 </body>
 </html>

@@ -7,8 +7,13 @@
 </head>
 <body>
     <script>
-        var width = prompt("사각형의 가로길이를 입력해주세요");
-        var height= prompt("사각형의 세로길이를 입력해주세요");
+        // Number(문자열)
+        var width = prompt("사각형의 가로길이를 입력해주세요(숫자)");
+        var height= prompt("사각형의 세로길이를 입력해주세요(숫자)");
+
+        height = Number(height);
+        width = Number(width);
+        
         console.log(width*height);
     </script>
 </body>
