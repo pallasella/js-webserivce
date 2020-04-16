@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id = "name" type="text" placeholder="이름을입력해주세요">
+    <input id = "height" type="text" placeholder="키를 입력해주세요">
+    <input id = "weight" type="text" placeholder="몸무게를 입력해주세요">
+    <button id  = "btn">결과</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+       $("#btn").click(function(){
+        console.log("");
+        var name = $ ("#name").val();
+        console.log(name);
+        var height = $("#height").val();
+        console.log(height);
+        var weight = $ ("#weight").val();
+        console.log(weight);
+        console.log(name+"의 키는"+height+"몸무게는"+weight+"입니다");
+       });
+    </script>
+</body>
+</html>

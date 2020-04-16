@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="width" type="text" placeholder="사각형의 가로길이를 입력해주세요">
+    <input id="height" type="text" placeholder="사각형의 세로길이를 입력해주세요">
+    <button id="btn">결과</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $("#btn").click(function(){
+            var width = $("#width").val();
+            var height = $("#height").val();
+
+            var sumRsult=Number(width)+Number(height);
+            console.log("사각형의 넓이는"+sumRsult+"입니다");
+        });
+    </script>
+</body>`
+</html>
