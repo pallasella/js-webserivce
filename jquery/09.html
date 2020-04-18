@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id = "first" type="text" placeholder="첫번째는 true 인가요">
+    <input id = "two" type="text" placeholder="두번째는 true 인가요">
+    <button id="btn">결과</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $("btn").click(function(){
+        var first = $("#first").val();
+        console.log("당신이 입력한 값은"+first+"과"+two+"입니다");
+        console.log("A || B = " +(one || two ));
+        console.log("A && B = "+(one && two));
+        console.log("!A = " +(!one));
+        console.log("!A = " +(!two));
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="one" type="text" placeholder="첫번째 숫자는(숫자를 입력해주세요)">
+    <input id="two" type="text" placeholder="두번째 숫자는(숫자를 입력해주세요)">
+    <button id="btn">결과</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $("#btn").click(function(){
+        var one = $("#one").val();
+        var two = $("#two").val();
+
+        console.log("당신이 입력한 숫자는"+one+"과"+two+"입니다");
+        console.log("A > B " + (one>two));
+        console.log("A < B " +(one<two));
+        console.log("A >= B "+(one>=two));
+        console.log("A <= B "+(one<=two));
+        console.log("A == B" +(one==two));
+        console.log("A=== B" +(one===two));
+        });
+    </script>
+</body>
+</html>

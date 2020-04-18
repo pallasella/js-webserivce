@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="food" type="text" placeholder="당신이좋아하는 음식은?">
+    <input id="music" type="text" placeholder="당신이 좋아하는 음악은?">
+    <input id="movie" type="text" placeholder="당신이 좋아하는 영화장르는?">
+    <button id="btn">클릭</button>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $("#btn").click(function(){
+        console.log("");
+        var food = $ ("#food").val();
+        console.log(food);
+        var music = $ ("#music").val();
+        console.log(music);
+        var movie = $("#movie").val();
+        console.log(movie);
+        console.log("좋아하는 음식은"+food+"이고"+"좋아하는 음악은"+music+"이고"+"좋아하는 영화장르는"+movie+"이군요");
+        });
+    </script>
+</body>
+</html>
